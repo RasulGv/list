@@ -1,57 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
-  }
-  
-  #toDoList {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  #toDoList li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
-  }
-  
-  #toDoList li:last-child {
-    border-bottom: none;
-  }
-  
-  #toDoInput {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  
-  #addButton {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-  }
-  
-  button {
-    margin-left: 10px;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .delete {
-    background-color: #f44336;
-    color: white;
-  }
-  
-  .edit {
-    background-color: #2196F3;
-    color: white;
-  }
+  font-family: Arial, sans-serif;
+}
+
+#toDoList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#toDoList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#toDoList li:last-child {
+  border-bottom: none;
+}
+
+#toDoInput {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+#addButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit {
+  background-color: #2196F3;
+  color: white;
+}
