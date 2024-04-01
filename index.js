@@ -5,7 +5,7 @@ let arr = [];
 
 button.addEventListener('click', function() {
   const task = input.value.trim();
-  if (!task) {
+  if (task!==0) {
     alert('Please enter a task');
     return;
   }
