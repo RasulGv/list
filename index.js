@@ -25,10 +25,11 @@ button.addEventListener('click', function() {
   const editButton = document.createElement('button');
   editButton.textContent = 'Edit';
   editButton.addEventListener('click', function() { 
-    const newTask = prompt('Edit:', li.textContent);
+    const newTask = prompt('Edit:', li.childNodes[0].textContent);
     if (newTask) {
-      li.textContent = newTask;
+      li.childNodes[0].textContent = newTask;
       arr[arr.indexOf(li.textContent)] = newTask;
+      
     }
   });
 
